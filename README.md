@@ -65,12 +65,14 @@ This skill is a single `SKILL.md` file that teaches Claude a specific workflow. 
 
 ## How to Use
 
-Once the skill is installed, start a new conversation and share your dataset:
+Once the skill is installed, start a new conversation and share your dataset by uploading the CSV or simply copying the columns header from the dataset:
 
 ```
-I have a dataset I want to build a dashboard on. Here are my columns:
+I have a dataset I want to analyze and build a dashboard on. Here are my columns:
 
 year, make, model, trim, body, transmission, state, condition, odometer, color, interior, sellingprice, saledate
+
+Create me the dummy brief.
 ```
 
 Claude will ask a few clarifying questions, then generate the full project brief.
@@ -85,14 +87,18 @@ Claude will ask a few clarifying questions, then generate the full project brief
 
 ## Example Output
 
-Here is the kind of brief the skill generates, built from a real used car sales dataset:
+Here is the kind of brief the skill generates, built from a real sales dataset:
 
-**DriveIQ Performance Dashboard**
-*Used Vehicle Sales Intelligence — Executive & Operations View*
+**StoreWatch Regional Performance Dashboard**
+*Real-time sales monitoring and driver analysis across regional store network — Executive & Operations View*
 
-> Requested by Sarah Lim, VP of Sales · AutoNation Central (fictional) · 2 pages · Monthly refresh
+> Requested by Sarah Chen, VP Operations · RegionalMart Holdings (fictional) · 2 pages · Weekly refresh
 
 The brief includes a full schema table, 12 KPIs each mapped to actual dataset columns, Executive and Detail page specifications, and a clear success criteria statement — all rendered as a clean visual document inside Claude.
+
+**[View the Live Interactive Example here](https://claude.ai/public/artifacts/4c667385-8658-470e-a61e-bbb3aa72bf52)**
+
+<img width="1133" height="897" alt="Portfolio Brief Creator Output Example" src="https://github.com/user-attachments/assets/b305af0a-cad2-465d-a743-0a35aa9059e5" />
 
 ---
 
