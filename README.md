@@ -57,12 +57,9 @@ Compatible with Power BI, Tableau, Looker, Python (matplotlib / seaborn / plotly
 This skill is a single `SKILL.md` file that teaches Claude a specific workflow. Installation takes less than a minute.
 
 1. Click on `SKILL.md` in this repository
-2. Click the **Raw** button to open the raw file
-3. Copy the entire contents (`Ctrl+A` then `Ctrl+C`)
-4. Open [claude.ai](https://claude.ai) and go to **Settings → Skills**
-5. Click **New Skill**, paste the content, and save
-
-> **Note:** Skills require a Claude.ai Pro account or above.
+2. Click the **Download raw file** button to download the file
+3. Open [claude.ai](https://claude.ai) and go to **Customize → Skills**
+4. Click **Create Skill → Upload a skill** and select the `SKILL.md` you just downloaded
 
 ---
 
